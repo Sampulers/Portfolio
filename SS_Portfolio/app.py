@@ -10,4 +10,4 @@ style_content = (base_dir / 'style.css').read_text(encoding='utf-8')
 
 html_content = html_content.replace('<link rel="stylesheet" href="style.css">', f'<style>{style_content}</style>')
 
-components.html(html_content, height=2400, scrolling=True)
+components.html(html_content, height=3200, scrolling=False)
